@@ -1,0 +1,15 @@
+
+
+-- cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 37 | head -n 1
+
+CREATE DATABASE ___DaTaBaSe___NaMe___;
+
+CREATE USER '___UsEr___NaMe___'@'localhost' IDENTIFIED BY '___PaSsWoRd___';
+GRANT ALL PRIVILEGES ON ___DaTaBaSe___NaMe___.* TO '___UsEr___NaMe___'@'localhost' WITH GRANT OPTION;
+
+CREATE USER '___UsEr___NaMe___'@'%' IDENTIFIED BY '___PaSsWoRd___';
+GRANT ALL PRIVILEGES ON ___DaTaBaSe___NaMe___.* TO '___UsEr___NaMe___'@'%' WITH GRANT OPTION;
+
+FLUSH PRIVILEGES;
+
+

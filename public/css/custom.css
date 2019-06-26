@@ -1,0 +1,150 @@
+/* your styles go here */
+
+.new-nav {
+    float: right;
+}
+
+.new-nav .set-nav {
+    float: left;
+    margin-right: 10px;
+}
+
+.new-nav .set-nav li {
+    float: left;
+    position: relative;
+}
+
+.new-nav .set-nav li a {
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.new-nav .set-nav li a i {
+    margin-right: 6px;
+}
+
+.new-nav .set-nav li ul {
+    position: absolute;
+    background: white;
+    width: 150px;
+    border-radius: 4px;
+    box-shadow: 0 10px 23px rgba(0,0,0,.3);
+}
+
+.new-nav .set-nav li ul li {
+    width: 100%;
+}
+
+.new-nav .set-nav li ul li a {
+    width: 100%;
+    color: #333;
+    padding: 10px;
+    margin: 0;
+}
+.new-nav .set-nav li ul li a:hover {
+    color: #e74c3c;
+}
+.new-nav .set-nav li a:hover {
+    color: #e74c3c;
+}
+.correlation_content table{
+	border:1px solid #eee;
+	padding:5px;
+	width:100%;
+}
+
+.correlation_content td{
+	border:1px solid #eee;
+	padding:5px;
+}
+.navbar-holder.nav-set ul.nav-menu.list-unstyled {
+    float: right;
+}
+
+.navbar-holder.nav-set .side-button.d-none-mob {
+    float: right;
+}
+
+.side-button.d-none-mob a.download {
+    background: #e74c3c; 
+	width: 150px;
+    float: left;
+    text-align: center;
+    color: white !important;
+    text-transform: uppercase;
+    padding: 10px;
+	margin-left:10px;
+	text-decoration:none;
+}
+.navbar-holder.nav-set .side-button.d-none-mob a.button-logout.logout {
+    width: 150px;
+    float: left;
+    text-align: center;
+    color: white !important;
+    text-transform: uppercase;
+    padding: 10px;
+    background: #e74c3c;
+	text-decoration:none;
+}
+.mtop {
+    margin-top: 13px;
+}
+@media only screen and (max-width: 1100px)
+{
+	.navbar-holder.nav-set .side-button.d-none-mob a.button-logout.logout, .side-button.d-none-mob a.download {
+    padding: 10px;
+    width: auto;
+}
+a.top-logo {
+    width: 80px;
+}
+
+a.top-logo img {
+    width: 100%;
+}
+
+.new-nav .set-nav, .navbar-holder.nav-set ul.nav-menu.list-unstyled, .new-nav .set-nav li a, .navbar-holder.nav-set .side-button.d-none-mob {
+    margin: 0;
+}
+}
+@media only screen and (max-width: 991px) {
+.new-nav .set-nav li ul {
+    position: inherit;
+    background: #e6e6e6;
+    float: left;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+}
+}
+@media only screen and (max-width: 600px) {
+	.navbar-holder.nav-set .side-button.d-none-mob a.button-logout.logout, .side-button.d-none-mob a.download{width:auto;}
+	.workchart_box a.dropdown-item {
+    padding: 0;
+}
+}
+@media only screen and (max-width: 480px) {
+	a.top-logo {
+    width: 90px;
+}
+
+a.top-logo img {
+    width: 100%;
+}
+
+.mtop {
+    margin-top: 0;
+}.navbar-holder.nav-set .side-button.d-none-mob a.button-logout.logout, .side-button.d-none-mob a.download {
+    width: auto;
+    padding: 7px 8px;
+    font-size: 10px;
+    margin-top: 4px;
+}
+a.top-logo {
+    width: 60px;
+    margin-top: 4px;
+}
+ul.list-unstyled.set-nav {
+top: 65px;}
+}
